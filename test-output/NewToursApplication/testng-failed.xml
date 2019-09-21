@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewToursApplication]">
+  <test thread-count="5" name="LogIn(failed)">
+    <classes>
+      <class name="com.annotations.NewTours_LogIn">
+        <methods>
+          <include name="LogIn"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.annotations.NewTours_LogIn -->
+    </classes>
+  </test> <!-- LogIn(failed) -->
+</suite> <!-- Failed suite [NewToursApplication] -->

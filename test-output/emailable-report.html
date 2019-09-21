@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">NewToursApplication</th></tr>
+<tr><td><a href="#t0">LogIn</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">2,388</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Registration</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">103,278</td><td></td><td></td></tr>
+<tr><td><a href="#t2">MultipleRegistration</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">52,286</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num attn">1</th><th class="num">0</th><th class="num">157,952</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">NewToursApplication</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LogIn &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.annotations.NewTours_LogIn</td><td><a href="#m0">SetUp</a></td><td rowspan="1">1568969260220</td><td rowspan="1">2104</td></tr><tr><th colspan="4">LogIn &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.annotations.NewTours_LogIn</td><td><a href="#m1">LogIn</a></td><td rowspan="1">1568969262585</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Registration &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.annotations.NewTours_Registration</td><td><a href="#m2">Register</a></td><td rowspan="1">1568969335560</td><td rowspan="1">3485</td></tr><tr class="passedeven"><td><a href="#m3">UserRegistration</a></td><td rowspan="1">1568969339048</td><td rowspan="1">27384</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">MultipleRegistration &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.annotations.NewTours_Registration</td><td><a href="#m4">Register</a></td><td rowspan="1">1568969391433</td><td rowspan="1">343</td></tr><tr class="passedeven"><td><a href="#m5">UserRegistration</a></td><td rowspan="1">1568969391782</td><td rowspan="1">26957</td></tr></tbody>
+</table>
+<h2>LogIn</h2><h3 id="m0">com.annotations.NewTours_LogIn#SetUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-19HQ6GP&apos;, ip: &apos;192.168.42.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:129)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.annotations.NewTours_LogIn.SetUp(NewTours_LogIn.java:23)
+Caused by: org.openqa.selenium.WebDriverException: Cannot create profile directory at C:\Users\Nutan\AppData\Local\Temp\anonymous6280894812173175423webdriver-profile
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-19HQ6GP&apos;, ip: &apos;192.168.42.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.io.TemporaryFilesystem.createTempDir(TemporaryFilesystem.java:89)
+	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:417)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:85)
+	... 31 more
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.annotations.NewTours_LogIn#LogIn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-19HQ6GP&apos;, ip: &apos;192.168.42.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:129)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.annotations.NewTours_LogIn.SetUp(NewTours_LogIn.java:23)
+Caused by: org.openqa.selenium.WebDriverException: Cannot create profile directory at C:\Users\Nutan\AppData\Local\Temp\anonymous6280894812173175423webdriver-profile
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-19HQ6GP&apos;, ip: &apos;192.168.42.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.io.TemporaryFilesystem.createTempDir(TemporaryFilesystem.java:89)
+	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:417)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:85)
+	... 31 more
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Registration</h2><h3 id="m2">com.annotations.NewTours_Registration#Register</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.annotations.NewTours_Registration#UserRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MultipleRegistration</h2><h3 id="m4">com.annotations.NewTours_Registration#Register</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.annotations.NewTours_Registration#UserRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

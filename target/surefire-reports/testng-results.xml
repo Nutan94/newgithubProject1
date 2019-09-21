@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="applicationsuite" duration-ms="111705" started-at="2019-09-20T16:32:41Z" finished-at="2019-09-20T16:34:33Z">
+    <groups>
+    </groups>
+    <test name="NewtoursApplication" duration-ms="111705" started-at="2019-09-20T16:32:41Z" finished-at="2019-09-20T16:34:33Z">
+      <class name="com.annotations.NewTours_LogIn">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.annotations.NewTours_LogIn@5e853265]" name="SetUp" is-config="true" duration-ms="42818" started-at="2019-09-20T16:32:41Z" finished-at="2019-09-20T16:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.annotations.NewTours_Registration@67205a84]" name="SetUp" is-config="true" duration-ms="21164" started-at="2019-09-20T16:33:24Z" finished-at="2019-09-20T16:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:com.annotations.NewTours_LogIn@5e853265]" name="LogIn" duration-ms="32083" started-at="2019-09-20T16:33:46Z" finished-at="2019-09-20T16:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.annotations.NewTours_LogIn@5e853265]" name="tearDown" is-config="true" duration-ms="35" started-at="2019-09-20T16:34:33Z" finished-at="2019-09-20T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.annotations.NewTours_Registration@67205a84]" name="tearDown" is-config="true" duration-ms="43" started-at="2019-09-20T16:34:33Z" finished-at="2019-09-20T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.annotations.NewTours_LogIn -->
+      <class name="com.annotations.NewTours_Registration">
+        <test-method status="PASS" signature="Register()[pri:0, instance:com.annotations.NewTours_Registration@67205a84]" name="Register" duration-ms="1965" started-at="2019-09-20T16:34:18Z" finished-at="2019-09-20T16:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="PASS" signature="UserRegistration()[pri:1, instance:com.annotations.NewTours_Registration@67205a84]" name="UserRegistration" duration-ms="13055" started-at="2019-09-20T16:34:20Z" finished-at="2019-09-20T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRegistration -->
+      </class> <!-- com.annotations.NewTours_Registration -->
+    </test> <!-- NewtoursApplication -->
+  </suite> <!-- applicationsuite -->
+</testng-results>
